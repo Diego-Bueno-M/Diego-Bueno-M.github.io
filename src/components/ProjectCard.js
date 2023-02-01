@@ -1,6 +1,9 @@
 function ProjectCard(props) {
   return (
     <div>
+      <h3>
+        { props.name }
+      </h3>
       <img
         alt="project thumb"
         src={props.image}
