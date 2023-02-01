@@ -21,7 +21,6 @@ function ProjectCard(props) {
       <a
         target="_blank"
         rel="noreferrer"
-        onClick={() => window.open(props.url, '_blank').focus()}
         href={ props.url }>
         <button type="button">Repositório</button>
       </a>

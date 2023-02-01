@@ -6,7 +6,6 @@ function Contact() {
         <a
           target="_blank"
           rel="noreferrer"
-          onClick={() => window.open("https://www.linkedin.com/in/diego-bueno-mendonca-dev-full-stack/", '_blank').focus()}
           href="https://www.linkedin.com/in/diego-bueno-mendonca-dev-full-stack/"
         >
           Linkedin 
@@ -16,7 +15,6 @@ function Contact() {
         <a
           target="_blank"
           rel="noreferrer"
-          onClick={() => window.open("https://github.com/Diego-Bueno-M", '_blank').focus()}
           href="https://github.com/Diego-Bueno-M"
         >
           GitHub 
