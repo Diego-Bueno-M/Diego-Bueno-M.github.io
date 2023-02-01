@@ -1,19 +1,23 @@
 function ProjectCard(props) {
   return (
     <div>
-      <a rel="noopener noreferrer" href={ props.url }>
-        <button type="button">Repositório</button>
-      </a>
+      <img
+        alt="project thumb"
+        src={props.image}
+      />
       <ul>
         Tecnologias utilizadas
-        { props.stacks.map((stack) => {
+        { props.stacks.map((stack, index) => {
           return( 
-            <li>
+            <li key={`${ stack }-${ index }`}>
               {stack}
             </li>
           );
         }) }
       </ul>
+      <a rel="noopener noreferrer" href={ props.url }>
+        <button type="button">Repositório</button>
+      </a>
     </div>
   );
 }

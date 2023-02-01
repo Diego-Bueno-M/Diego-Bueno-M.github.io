@@ -8,6 +8,7 @@ function App() {
       <Intro/>
       <About/>
       <ProjectCard
+        image="https://www.ufmt.br/ocs/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png"
         url="https://github.com/Diego-Bueno-M/Project-Solar-System"
         stacks={['react', 'redux', 'html']}
       />
