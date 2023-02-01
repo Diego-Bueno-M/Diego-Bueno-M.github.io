@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section>
+    <section id="about">
       <h2>Um pouco sobre mim e minha trajetória</h2>
       <p>
         Tenho 23 anos, moro em São Bernardo do Campo e sempre tive

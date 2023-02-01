@@ -2,7 +2,7 @@ import ProjectCard from "../../components/ProjectCard";
 
 function Project() {
   return (
-    <section>
+    <section id="projects">
       <h2>Principais Projetos</h2>
       <ProjectCard
         name="Solar-System"
