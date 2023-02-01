@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div>
+    <section>
       <h2>Um pouco sobre mim e minha trajetória</h2>
       <p>
         Tenho 23 anos, moro em São Bernardo do Campo e sempre tive
@@ -20,8 +20,8 @@ function About() {
         de conforto e sei que ainda tenho um longo caminho pela frente.<br></br>
         Um dia serei referência na área de desenvolvimento de software.
       </p>
-    </div>
+    </section>
   );
 }
 
-export default About
+export default About;
