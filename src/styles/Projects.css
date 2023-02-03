@@ -1,0 +1,9 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#projects div {
+  display: flex;
+}

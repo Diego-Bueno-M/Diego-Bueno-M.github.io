@@ -1,6 +1,8 @@
+import '../styles/ProjectCard.css'
+
 function ProjectCard(props) {
   return (
-    <div>
+    <div className="project-card">
       <h3>
         { props.name }
       </h3>
