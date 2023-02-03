@@ -1,6 +1,9 @@
+import '../styles/About.css'
+
 function About() {
   return (
     <section id="about">
+      <img src="../images/foto_perfil.png" alt="profile_photo"/>
       <h2>Um pouco sobre mim e minha trajetória</h2>
       <p>
         Tenho 23 anos, moro em São Bernardo do Campo e sempre tive
