@@ -1,9 +1,9 @@
 import Intro from "./components/Intro";
 import About from "./components/About";
-import Project from "./pages/section/Projects";
+import Project from "./pages/Projects";
 import Contact from "./components/Contact";
-import Header from "./pages/section/Header";
-import Footer from "./pages/section/Footer";
+import Header from "./pages/Header";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
