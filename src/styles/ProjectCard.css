@@ -1,11 +1,12 @@
 .project-card {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  align-items: center ;
+  align-items: center;
+  width: 25%;
+  height: 25%;
 }
 
 .project-card img {
-  width: 500px;
-  height: 500px;
+  width: 80%;
+  height: 80%;
 }
