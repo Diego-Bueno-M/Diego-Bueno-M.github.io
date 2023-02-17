@@ -9,3 +9,8 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+#projects h2 {
+  font-size: 40px;
+  margin: 200px 0px 100px;
+}

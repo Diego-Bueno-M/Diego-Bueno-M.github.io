@@ -4,9 +4,9 @@ import profile_photo from '../images/profilePhoto.png'
 function About() {
   return (
     <section id="about">
-      <img src={profile_photo} alt="profile_photo"/>
+      <h2>Um pouco sobre mim e minha trajetória</h2>
       <div>
-        <h2>Um pouco sobre mim e minha trajetória</h2>
+        <img src={profile_photo} alt="profile_photo"/>
         <p>
           Tenho 23 anos, moro em São Bernardo do Campo e sempre tive
           afinadade e paixão por tecnologia.<br></br>
@@ -14,7 +14,7 @@ function About() {
           pesquisava sobre como resolver os problemas com a impressora,
           wi-fi, etc.<br></br>
           Iniciei meus estudos na área de desenvolvimento web em Janeiro
-          de 2022 na Trybe e finalizei em Fevereiro em Fevereiro de
+          de 2022 na Trybe e finalizei em Fevereiro de
           2023.<br></br>Já tenho bagagem e experiência para atuar
           como desenvolvedor Full-Stack Júnior, devivo aos inúmeros projetos
           realizados durante meus estudos.<br></br>

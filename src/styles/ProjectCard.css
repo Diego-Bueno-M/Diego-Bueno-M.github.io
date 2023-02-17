@@ -10,3 +10,12 @@
   width: 80%;
   height: 80%;
 }
+
+.project-card h3 {
+  font-size: 30px;
+}
+
+.project-card ul {
+  font-size: 20px;
+  margin-bottom: 10px;
+}

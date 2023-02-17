@@ -1,11 +1,20 @@
 #intro {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  text-align: center;
   height: 100vh;
 }
 
 #intro img {
   width: 40%;
+}
+
+#intro h1 {
+  font-size: 40px;
+}
+
+#intro h2 {
+  font-size: 35px;
 }
