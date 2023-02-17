@@ -9,6 +9,7 @@
 .project-card img {
   width: 80%;
   height: 80%;
+  border-radius: 30px;
 }
 
 .project-card h3 {
@@ -17,5 +18,23 @@
 
 .project-card ul {
   font-size: 20px;
+}
+
+.project-card li {
   margin-bottom: 10px;
+}
+
+.project-card button {
+  font-size: 17px;
+  color: white;
+  background-color: rgb(84,40,90);
+  border-radius: 20px;
+  width: 140px;
+  height: 40px;
+  border: none;
+}
+
+.project-card button:hover {
+  transition: background-color .9s;
+  background-color: rgb(145, 79, 154);
 }
