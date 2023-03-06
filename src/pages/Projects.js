@@ -11,6 +11,7 @@ function Project() {
           name="Projeto Sistema Solar"
           image={solarSystem}
           stacks={['React', 'StyledComponents', 'ClassComponents']}
+          url='https://github.com/Diego-Bueno-M/Project-Solar-System'
         />
       </div>
     </section>
