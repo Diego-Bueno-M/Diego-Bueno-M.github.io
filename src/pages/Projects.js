@@ -1,6 +1,6 @@
 import ProjectCard from "../components/ProjectCard";
 import '../styles/Projects.css'
-import intro from '../images/intro.jpg'
+import solarSystem from '../images/solarSystem.png'
 
 function Project() {
   return (
@@ -8,9 +8,9 @@ function Project() {
       <h2>Principais Projetos</h2>
       <div>
         <ProjectCard
-          name="Projeto Teste"
-          image={intro}
-          stacks={['stack1', 'stack2', 'stack3']}
+          name="Projeto Sistema Solar"
+          image={solarSystem}
+          stacks={['React', 'StyledComponents', 'ClassComponents']}
         />
       </div>
     </section>
