@@ -3,7 +3,6 @@ import '../styles/Header.css';
 function Header() {
   return (
     <header className="header-container">
-      <p>Botar uma imagem</p>
       <nav>
         <a href="#intro" className="nav-link">Intro</a>
         <a href="#about" className="nav-link">Sobre Mim</a>
