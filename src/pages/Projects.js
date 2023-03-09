@@ -10,7 +10,7 @@ function Project() {
         <ProjectCard
           name="Projeto Sistema Solar"
           image={solarSystem}
-          stacks={['React', 'StyledComponents', 'ClassComponents']}
+          stacks={['React', 'JSX']}
           url='https://github.com/Diego-Bueno-M/Project-Solar-System'
         />
       </div>

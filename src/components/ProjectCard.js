@@ -11,7 +11,7 @@ function ProjectCard(props) {
         src={props.image}
       />
       <ul>
-        Tecnologias utilizadas
+        Tecnologias utilizadas:
         { props.stacks.map((stack, index) => {
           return( 
             <li key={`${ stack }-${ index }`}>

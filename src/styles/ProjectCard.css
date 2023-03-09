@@ -18,10 +18,14 @@
 
 .project-card ul {
   font-size: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .project-card li {
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .project-card button {
