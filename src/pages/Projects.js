@@ -17,20 +17,12 @@ function Project() {
       </div>
       <div>
         <ProjectCard
-          name="Projeto Sistema Solar"
-          image={solarSystem}
-          stacks={['Pyhton', 'BeautifulSoup', 'parsel', 'pymongo']}
-          url='https://github.com/Diego-Bueno-M/Project-Solar-System'
-        />
-      </div>     
-      <div>
-        <ProjectCard
           name="Tech News"
           image={techNwes}
-          stacks={['React', 'JSX']}
+          stacks={['Pyhton', 'BeautifulSoup', 'parsel', 'pymongo']}
           url='https://github.com/Diego-Bueno-M/tech-News'
         />
-      </div>
+      </div>     
     </section>
   );
 }
