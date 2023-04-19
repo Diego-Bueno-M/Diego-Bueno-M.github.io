@@ -1,16 +1,21 @@
-#projects {
+#projects-section {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-#projects div {
+#projects-card {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-#projects h2 {
-  font-size: 40px;
+#projects-div {
+  display: flex;  
+  justify-content: center;
+}
+
+#projects-h2 {
+  font-size: 60px;
   margin: 200px 0px 100px;
 }
