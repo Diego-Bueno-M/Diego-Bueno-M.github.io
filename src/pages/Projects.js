@@ -15,7 +15,6 @@ function Project() {
           url='https://github.com/Diego-Bueno-M/Project-Solar-System'
         />
       </div>
-      <h2>Principais Projetos</h2>
       <div>
         <ProjectCard
           name="Projeto Sistema Solar"
@@ -24,7 +23,6 @@ function Project() {
           url='https://github.com/Diego-Bueno-M/Project-Solar-System'
         />
       </div>     
-      <h2>Tech News</h2>
       <div>
         <ProjectCard
           name="Tech News"
