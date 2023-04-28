@@ -1,7 +1,8 @@
 import ProjectCard from "../components/ProjectCard";
-import '../styles/Projects.css'
-import solarSystem from '../images/solarSystem.png'
-import techNwes from '../images/techNwes.png'
+import '../styles/Projects.css';
+import solarSystem from '../images/solarSystem.png';
+import techNews from '../images/techNews.png';
+import trybeWallet from '../images/trybeWallet.png';
 
 function Project() {
   return (
@@ -19,9 +20,17 @@ function Project() {
         <div id="projects-card">
           <ProjectCard
             name="Tech News"
-            image={techNwes}
+            image={techNews}
             stacks={['Pyhton', 'BeautifulSoup', 'parsel', 'pymongo']}
             url='https://github.com/Diego-Bueno-M/tech-News'
+          />
+        </div>
+        <div id="projects-card">
+          <ProjectCard
+            name="Trybe Wallet"
+            image={trybeWallet}
+            stacks={['React', 'Redux']}
+            url='https://github.com/Diego-Bueno-M/trybe-wallet'
           />
         </div>
       </div>
