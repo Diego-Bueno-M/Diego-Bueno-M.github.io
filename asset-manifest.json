@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfec4573.css",
-    "main.js": "/static/js/main.37affcc6.js",
+    "main.css": "/static/css/main.6b0c9e84.css",
+    "main.js": "/static/js/main.8e44011a.js",
     "static/js/787.be55e6d0.chunk.js": "/static/js/787.be55e6d0.chunk.js",
-    "static/media/solarSystem.png": "/static/media/solarSystem.ca66b9abfd576d13b4cd.png",
-    "static/media/techNwes.png": "/static/media/techNwes.06b05f3ff4479851a08c.png",
+    "static/media/solarSystem.png": "/static/media/solarSystem.74ffd5f01c994b1899dd.png",
+    "static/media/techNews.png": "/static/media/techNews.79bdc4bf1bc7aee697d2.png",
     "static/media/intro.jpg": "/static/media/intro.d2c026e8d6b5ca8174f2.jpg",
     "static/media/profilePhoto.png": "/static/media/profilePhoto.1ef3503bef8c4020dd95.png",
+    "static/media/trybeWallet.png": "/static/media/trybeWallet.e9599d9ae2ae7fb2e2e2.png",
     "index.html": "/index.html",
-    "main.cfec4573.css.map": "/static/css/main.cfec4573.css.map",
-    "main.37affcc6.js.map": "/static/js/main.37affcc6.js.map",
+    "main.6b0c9e84.css.map": "/static/css/main.6b0c9e84.css.map",
+    "main.8e44011a.js.map": "/static/js/main.8e44011a.js.map",
     "787.be55e6d0.chunk.js.map": "/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfec4573.css",
-    "static/js/main.37affcc6.js"
+    "static/css/main.6b0c9e84.css",
+    "static/js/main.8e44011a.js"
   ]
 }
