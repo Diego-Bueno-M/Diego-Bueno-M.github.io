@@ -14,7 +14,7 @@ function Game() {
     const noButton = document.getElementById("no_button");
     const yesButton = document.getElementById("yes_button");
     const yesButtonRect = yesButton.getBoundingClientRect();
-    const randomPositionLeft = (Math.random() - 0.5) * 100; // Permitir movimento para esquerda e direita
+    const randomPositionLeft = (Math.random() - 0.5) * 100;
     let randomPositionTop = generateRandomNumber() * 50;
 
     if (randomPositionTop < 0) {
@@ -33,7 +33,7 @@ function Game() {
 
     noButton.style.position = "relative";
     noButton.style.left = "0px";
-    noButton.style.top = `${yesButtonRect.height + 10}px`; // 10px de margem abaixo do botão "Sim"
+    noButton.style.top = `${yesButtonRect.height + 10}px`;
   }
 
   useEffect(() => {
