@@ -5,6 +5,7 @@
   background-color: rgb(7, 22, 97);
   width: 100%;
   position: fixed;
+  z-index: 2; 
 }
 
 .header-container nav {
