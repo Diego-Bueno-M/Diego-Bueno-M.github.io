@@ -2,7 +2,7 @@
   display: flex;
   text-align: center;
   justify-content: space-between;
-  background-color: rgb(84,40,90);
+  background-color: rgb(7, 22, 97);
   width: 100%;
   position: fixed;
 }
@@ -20,5 +20,5 @@
 }
 
 .nav-link:hover {
-  background-color: rgb(145, 79, 154);
+  background-color: rgb(18, 53, 206);
 }

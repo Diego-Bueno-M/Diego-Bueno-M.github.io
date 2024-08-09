@@ -1,17 +1,18 @@
 import '../styles/Intro.css'
-import intro from '../images/intro.jpg'
+import profile_photo from '../images/profilePhoto.png'
 
 function Intro() {
   return (
     <section id="intro">
-      <div>
-        <h1>Olá! Me chamo Diego Mendonça e sou Dev Full-stack!</h1>
-        <h2>Bem-vindo(a) e boa leitura!</h2>
+      <div id="intro-container">
+        <div>
+          <h1>Olá! Me chamo <strong>Diego Mendonça</strong> e sou <strong>Dev Full-stack!</strong></h1>
+          <h2>Bem-vindo(a) e boa leitura!</h2>
+        </div>
+        <div id="img-container">
+          <img src={profile_photo} alt="profile_photo"/>
+        </div>
       </div>
-      <img
-        src={ intro }
-        alt="computer"
-      />
     </section>
   );
 }

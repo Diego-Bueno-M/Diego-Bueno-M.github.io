@@ -1,12 +1,10 @@
 import '../styles/About.css'
-import profile_photo from '../images/profilePhoto.png'
 
 function About() {
   return (
     <section id="about">
       <h2>Um pouco sobre mim e minha trajetória</h2>
       <div>
-        <img src={profile_photo} alt="profile_photo"/>
         <p>
           Tenho 23 anos, moro em São Bernardo do Campo e sempre tive
           afinadade e paixão por tecnologia.<br></br>

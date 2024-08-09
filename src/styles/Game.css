@@ -4,9 +4,13 @@
   text-align: center;
   margin-top: 100px;
   margin-bottom: 70px;
+  align-items: center;
 }
 
 #game div {
+  display: flex;
   height:  100px;
-  max-width: fit-content;
+  width: 500px;
+  align-items: center;
+  justify-content: space-between;
 }

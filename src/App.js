@@ -4,6 +4,8 @@ import Project from "./pages/Projects";
 import Contact from "./components/Contact";
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
+import Game from "./pages/Game";
+import Techs from "./pages/Techs";
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <Header />
       <Intro />
       <About />
+      <Techs />
       <Project />
+      <Game />
       <Contact />
       <Footer />
     </div>

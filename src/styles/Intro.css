@@ -1,14 +1,20 @@
 #intro {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  text-align: center;
   height: 100vh;
 }
 
-#intro img {
-  width: 40%;
+#intro-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 80%;
+  width: 80%;
+  background-color: #f0f0f0;
+  border: black 1px solid;
+  border-radius: 10px;
 }
 
 #intro h1 {
@@ -17,4 +23,32 @@
 
 #intro h2 {
   font-size: 35px;
+}
+
+#img-container img {
+  height: 80%;
+  width: 80%;
+  border-radius: 10px;
+}
+
+@keyframes changeColor {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: red;
+  }
+}
+
+#intro strong {
+  animation: changeColor 20s infinite;
 }
