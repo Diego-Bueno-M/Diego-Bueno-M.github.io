@@ -1,42 +1,73 @@
 .project-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.project-card img {
-  width: 50%;
-  height: 50%;
-  border-radius: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .project-card h3 {
-  font-size: 30px;
+  margin-bottom: 16px;
 }
 
-.project-card ul {
-  font-size: 20px;
+.project-card img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.clickable-image {
+  cursor: pointer;
+}
+
+.clickable-image {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.clickable-image:hover {
+  transform: scale(1.05);
+}
+
+.modal-content {
+  animation: fadeIn 0.3s ease-out;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-content h4 {
+  margin-top: 0;
+}
+
+.modal-content ul {
   list-style-type: none;
   padding: 0;
-  margin-bottom: 10px;
+}
+
+.modal-content li {
+  margin: 5px 0;
+}
+
+.modal-content a {
+  display: inline-block;
   margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
 }
 
-.project-card li {
-  margin-top: 10px;
-}
-
-.project-card button {
-  font-size: 17px;
-  color: white;
-  background-color: rgb(84,40,90);
-  border-radius: 20px;
-  width: 140px;
-  height: 40px;
-  border: none;
-}
-
-.project-card button:hover {
-  transition: background-color .9s;
-  background-color: rgb(145, 79, 154);
+.modal-content a:hover {
+  text-decoration: underline;
 }
