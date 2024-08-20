@@ -15,7 +15,7 @@ function Game() {
     const yesButton = document.getElementById("yes_button");
     const yesButtonRect = yesButton.getBoundingClientRect();
     const randomPositionLeft = (Math.random() - 0.5) * 100;
-    let randomPositionTop = generateRandomNumber() * 50;
+    var randomPositionTop = generateRandomNumber() * 50;
 
     if (randomPositionTop < 0) {
       randomPositionTop = Math.abs(randomPositionTop) + yesButtonRect.height;
